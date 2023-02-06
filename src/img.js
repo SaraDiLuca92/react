@@ -1,8 +1,7 @@
-Import React, {Component} from "react"; 
-
-class Img extends Component {
-constructor (props) {
-super (props) ;
-this.state = {
-src: "./guns.jpg"
-};}
+import { Component } from "react";
+class ImgnComponent extends Component {
+  render() {
+    return <img src={this.props.src} />;
+  }
+}
+export default ImgnComponent;
